@@ -16,8 +16,8 @@ auto main() {
   auto b_height = 40;
   auto b_left = (w_width - b_width) / 2;
   auto b_top = w_height / 2 - b_height;
-  auto b_title = "ボタン".toStringz;
-  auto button = new_fl_button_with_label(b_left, b_top, b_width, b_height, b_title);
+  auto b_label = "ボタン".toStringz;
+  auto button = new_fl_button_with_label(b_left, b_top, b_width, b_height, b_label);
 
   button.fl_button_set_type(FL_NORMAL_BUTTON);
   button.fl_button_set_color(FL_WHITE);
