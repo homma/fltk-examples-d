@@ -1,6 +1,6 @@
 #### About
 
-FLTK sample programs
+FLTK sample programs for D language.
 
 #### Prerequisites
 
