@@ -5,7 +5,7 @@
 extern "C" {
 
 // run below to generate the header file
-// grep '^//| ' src/wx.cpp | sed 's/^\/\/\| //' > src/wx.h
+// grep '^//|' src/fltk.cpp | sed 's/^\/\/\| *//' > src/fltk.h
 
 //|
 //| //// Fl
